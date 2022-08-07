@@ -3,12 +3,11 @@ import urllib.request
 
 
 def main():
+    url_input = input('please, enter an ebay url: ')
+
+    file_name_input = input('please, enter the file name that will be created: ')
+    
     ebay_scrapper(url_input, file_name_input)
-
-
-url_input = input('please, enter an ebay url: ')
-
-file_name_input = input('please, enter the file name that will be created: ')
 
 # opening the url
 
